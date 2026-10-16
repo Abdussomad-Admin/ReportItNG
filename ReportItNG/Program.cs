@@ -21,8 +21,10 @@ builder.Services.AddScoped<IReportRepository, ReportRepository>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("Vite", policy =>
-        policy.WithOrigins("http://localhost:5173")
+    options.AddPolicy("Frontend", policy =>
+        policy.WithOrigins(
+                "http://127.0.0.1:5500",
+                "http://localhost:5173")
               .AllowAnyHeader()
               .AllowAnyMethod());
 });
@@ -35,6 +37,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("Frontend");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ReportIt.Api.Models;
 using ReportItNG.Context;
-using ReportItNG.Domain.Entites;
 using ReportItNG.Repository.Interfacaes;
 
 namespace ReportItNG.Repositories;

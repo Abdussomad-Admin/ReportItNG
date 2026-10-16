@@ -1,4 +1,4 @@
-﻿using ReportItNG.Domain.Entites;
+﻿using ReportIt.Api.Models;
 
 namespace ReportItNG.Repository.Interfacaes
 {

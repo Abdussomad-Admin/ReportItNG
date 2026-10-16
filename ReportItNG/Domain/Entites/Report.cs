@@ -1,4 +1,4 @@
-﻿namespace ReportItNG.Domain.Entites;
+﻿namespace ReportIt.Api.Models;
 
 public enum ReportCategory
 {

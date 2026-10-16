@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ReportItNG.Domain.Entites;
+using ReportIt.Api.Models;
 using ReportItNG.Repository.Interfacaes;
 
 namespace ReportItNG.Controllers;
