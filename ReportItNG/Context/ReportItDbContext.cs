@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ReportIt.Api.Models;
+using ReportItNG.Domain.Entites;
 
 namespace ReportItNG.Context
 {
